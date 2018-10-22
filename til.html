@@ -19,6 +19,27 @@
 <section class="blog">
     <h1 class="blog__title">Today I Learned</h1>
     <div class="post">
+      <h2>How to Create a Tag for a GitHub Release</h2>
+      <ol>
+      <li>From the master branch create the tag
+      <ul>
+      <li><code>git tag -a tag_name</code></li>
+      </ul></li>
+      <li>Add a message about the tag when prompted
+      <ul>
+      <li>Have the message match the title of the release</li>
+      </ul></li>
+      <li>Push up the tag
+      <ul>
+      <li><code>git push origin tag_name</code></li>
+      </ul></li>
+      <li>In GitHub navigate to the <em>releases</em> tab, next to the <em>branches</em> tag</li>
+      <li>Select the <em>Tags</em> button</li>
+      <li>Click the group of three dots in the right corner</li>
+      <li>Select <em>Create a Release</em></li>
+      </ol>
+    </div>
+    <div class="post">
       <h2>How to Host with A GitHub Pages Branch</h2>
       <p>I started hosting this beginner's guide site with a github pages branch because  I am using handlebar templates to build out the pages. That way I  can have a clean build for the project. My goals for hosting the beginners guide were to have all of the  built HTML files in the root of the project, and to have a clean build  where I could clean out the static folder before building the static  assets into it each time. This is how I set that up with a GitHub Pages branch:</p>
       <ol>
