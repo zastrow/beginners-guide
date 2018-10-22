@@ -17,11 +17,10 @@
 }
 
 .post {
-  padding: 6vh 4vw;
-  background-image: linear-gradient(to top, #f2f2f2 0%, #ffffff 100%);
+  padding: 4vh 4vw;
 
   @media (min-width: $first-bp) {
-    padding: 6vh 18vw;
+    padding: 6vh 18vw 2vh;
   }
 
   p {
